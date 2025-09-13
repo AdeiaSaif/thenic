@@ -1,0 +1,159 @@
+.cls_1 {
+    background: #0D6CAC;
+    min-height: 100vh;
+    position: relative;
+}
+
+.cls_2 {
+    padding: 4rem 2rem;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cls_83 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.cls_83.cls_78 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.cls_83.cls_78 .cls_56 {
+    order: -1;
+}
+
+.cls_95 {
+    color: white;
+}
+
+.cls_84 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.cls_95 p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.cls_43 {
+    list-style: none;
+    padding: 0;
+}
+
+.cls_43 li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.cls_43 li::before {
+    content: "•";
+    color: #FFCB00;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+}
+
+.cls_56 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cls_27 {
+    padding: 4rem 2rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cls_27 .cls_84 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.cls_26 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.cls_29 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cls_28 {
+    font-size: 3rem;
+    color: #FFCB00;
+}
+
+.cls_29 span {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .cls_83 {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .cls_83.cls_78 .cls_56 {
+        order: 0;
+    }
+
+    .cls_84 {
+        font-size: 2rem;
+    }
+
+    .cls_26 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .cls_56 img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cls_2 {
+        padding: 2rem 1rem;
+    }
+
+    .cls_27 {
+        padding: 2rem 1rem;
+    }
+
+    .cls_26 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .cls_84 {
+        font-size: 1.8rem;
+    }
+
+    .cls_95 p {
+        font-size: 1rem;
+    }
+
+    .cls_43 li {
+        font-size: 1rem;
+    }
+}
