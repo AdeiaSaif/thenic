@@ -1,0 +1,154 @@
+.cls_91 {
+    background: #0D6CAC;
+    padding: 4rem 2rem;
+    min-height: 100vh;
+}
+
+.cls_90 {
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+    color: white;
+    text-align: left;
+}
+
+.cls_90 p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.cls_93 {
+    max-width: 1200px;
+    margin: 0 auto 4rem;
+}
+
+.cls_94 {
+    color: #FFCB00;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+.cls_103 {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-bottom: 3rem;
+}
+
+.cls_104 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.cls_5 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cls_6 {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.cls_92 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cls_64 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #FFCB00;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    background: #f0f0f0;
+}
+
+.cls_64 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cls_63 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.cls_65 {
+    color: #FFCB00;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .cls_91 {
+        padding: 2rem 1rem;
+    }
+
+    .cls_94 {
+        font-size: 2rem;
+    }
+
+    .cls_103 {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .cls_104 {
+        gap: 1.5rem;
+    }
+
+    .cls_6 {
+        gap: 2rem;
+    }
+
+    .cls_64 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .cls_63 {
+        font-size: 1.1rem;
+    }
+
+    .cls_65 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cls_104 {
+        gap: 1rem;
+    }
+
+    .cls_6 {
+        gap: 1.5rem;
+    }
+
+    .cls_64 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .cls_63 {
+        font-size: 1rem;
+    }
+
+    .cls_65 {
+        font-size: 0.8rem;
+    }
+}

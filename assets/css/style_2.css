@@ -1,0 +1,151 @@
+.cls_17 {
+    background: #0D6CAC;
+    min-height: 100vh;
+    padding: 4rem 2rem;
+}
+
+.cls_16 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cls_82 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.cls_79 {
+    background: #0D6CAC;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.cls_81 {
+    background: #FFCB00;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.cls_81 h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cls_80 {
+    color: white;
+}
+
+.cls_87 {
+    margin-bottom: 2rem;
+}
+
+.cls_87 h3 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.cls_87 p {
+    color: #e5e7eb;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.cls_87 ul,
+.cls_87 ol {
+    color: #e5e7eb;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding-left: 1.5rem;
+}
+
+.cls_87 li {
+    margin-bottom: 0.3rem;
+}
+
+.cls_85 {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 3rem;
+    color: white;
+}
+
+.cls_85 h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.cls_85 p {
+    color: #e5e7eb;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.cls_85 ol {
+    color: #e5e7eb;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding-left: 2rem;
+}
+
+.cls_85 li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .cls_17 {
+        padding: 2rem 1rem;
+    }
+
+    .cls_82 {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .cls_81 h2 {
+        font-size: 1.3rem;
+    }
+
+    .cls_85 {
+        padding: 2rem;
+    }
+
+    .cls_85 h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cls_79 {
+        padding: 1.5rem;
+    }
+
+    .cls_85 {
+        padding: 1.5rem;
+    }
+
+    .cls_87 h3 {
+        font-size: 1.1rem;
+    }
+
+    .cls_87 p,
+    .cls_87 ul,
+    .cls_87 ol {
+        font-size: 0.9rem;
+    }
+
+    .cls_85 p,
+    .cls_85 ol {
+        font-size: 1rem;
+    }
+}
